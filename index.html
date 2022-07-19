@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="favicon-32x32.png" />
+
+    <title>cars</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-container">
+        <div class="leftbar">
+          <img src="icon-sedans.svg" alt="icon-sedans" />
+          <h1>SEDANS</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, porro
+            expedita consequuntur perspiciatis nemo ullam modi magnam, a quos
+            officia libero nisi commodi non voluptates distinctio recusandae
+            <span id="dots">...</span>
+            <span id="more">
+              neque. Praesentium voluptas culpa, id quos iure quis nulla debitis
+              delectus quam dolore laboriosam nam, minima nisi aperiam
+              repellendus aliquam ab nemo recusandae? Perferendis dignissimos
+              fuga cumque incidunt. Harum dolorum explicabo dicta quam deleniti
+              veniam, iure tenetur eum modi distinctio? Quasi illum vel
+           
+            </span>
+          </p>
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+
+        <div class="leftbar2">
+          <img src="icon-suvs.svg" alt="icon-suvs" />
+          <h1>SUVS</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
+            dignissimos autem distinctio accusamus labore neque iusto aut
+            quibusdam sapiente dolorem expedita odio illo, consequatur
+            <span id="dots1">...</span>
+            <span id="more1"
+              >officiis voluptas adipisci ex animi perspiciatis molestias quae
+              facilis! Voluptatem totam, nesciunt velit quidem omnis laudantium
+              similique, quasi sequi recusandae iusto eveniet modi blanditiis
+              qui est rerum. Tempore aperiam consequatur eos nisi commodi id
+            
+            </span>
+          </p>
+          <button onclick="myFunction1()" id="myBtn1">Read more</button>
+        </div>
+
+        <div class="leftbar3">
+          <img src="icon-luxury.svg" alt="icon-luxury" />
+
+          <h1>Luxury</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quae
+            odit nemo quaerat, dignissimos amet asperiores fuga illum commodi
+            repellat, ipsum deleniti eligendi neque aspernatur? Impedit
+            <span id="dots2">...</span>
+            <span id="more2"
+              >sapiente architecto tempore beatae dolor voluptates reiciendis
+              veritatis fuga nam, libero blanditiis et. Quo porro, quod esse
+              quasi ea dignissimos illo recusandae dolorum laudantium ratione et
+              tempore provident incidunt repellendus aut molestiae repellat
+           
+            </span>
+          </p>
+          <button onclick="myFunction2()" id="myBtn2">Read more</button>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+       
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        
+
+         
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+       
+        }
+      }
+      function myFunction1() {
+        var dots = document.getElementById("dots1");
+        var moreText = document.getElementById("more1");
+        var btnText = document.getElementById("myBtn1");
+       
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        
+
+         
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+       
+        }
+      }
+      function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+       
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more";
+          moreText.style.display = "none";
+        
+
+         
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less";
+          moreText.style.display = "inline";
+       
+        }
+      }
+    </script>
+  </body>
+</html>

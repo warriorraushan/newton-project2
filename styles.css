@@ -1,0 +1,91 @@
+
+body{
+  margin: 34px;
+  padding: 40px;
+}
+.leftbar {
+  grid-area: leftbar;
+}
+.leftbar2 {
+  grid-area: leftbar2;
+}
+.leftbar3 {
+  grid-area: leftbar3;
+}
+
+.container {
+  display: grid;
+  /* gap:20px; */
+  grid-template-areas: "leftbar leftbar2 leftbar3";
+}
+.flex-container{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftbar {
+  width: 33.3333%;
+  height: 100%;
+  background-color: #d57e0e;
+}
+.leftbar2 {
+  width: 33.3333%;
+  height: 100%;
+  background-color: rgb(1, 45, 55);
+}
+
+.leftbar3 {
+  width: 33.3333%;
+  height: 100%;
+  background-color: rgb(1, 60, 51);
+}
+
+.leftbar img {
+  padding: 66px;
+}
+.leftbar2 img {
+  padding: 66px;
+}
+.leftbar3 img {
+  padding: 66px;
+}
+h1 {
+  padding: 3px 26px 12px 126px;
+  margin: -48px;
+  color: white;
+}
+p {
+  padding: 78px;
+  margin: 0px 0px 3px 0px;
+  color: white;
+  height: 200px;
+  overflow-y: scroll;
+}
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+
+
+#myBtn{
+  padding: 5px 24px;
+margin: -77px 55px 17px 85px;
+border-radius: 22px;
+color: #995433;
+}
+
+#myBtn1{
+  padding: 5px 24px;
+  margin: -77px 55px 17px 85px;
+  border-radius: 22px;
+  color: rgb(1, 45, 55);
+}
+
+#myBtn2{
+  padding: 5px 24px;
+  margin: -77px 55px 17px 85px;
+  border-radius: 22px;
+  color: rgb(1, 60, 51);
+}
